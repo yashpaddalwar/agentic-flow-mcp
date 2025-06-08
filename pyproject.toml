@@ -1,0 +1,18 @@
+[project]
+name = "mcpthing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "backoff>=2.2.1",
+    "duckduckgo-mcp-server>=0.1.1",
+    "duckduckgo-search>=8.0.2",
+    "langchain-google-genai>=2.1.5",
+    "langchain-groq>=0.3.2",
+    "langchain-mcp-adapters>=0.1.7",
+    "langchain-openai>=0.3.21",
+    "langgraph>=0.4.8",
+    "mcp-weather-server>=0.2.1",
+    "youtube-transcript-api>=1.0.3",
+]
